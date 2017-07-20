@@ -1,0 +1,38 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//bx slider originalized style
+.bx-pager {
+  bottom: -40px !important;
+  text-align: right !important;
+  .bx-pager-item {
+    a.bx-pager-link {
+      border-radius: 0px !important;
+      width: 20px !important;
+      height: 20px !important;
+    }
+  }
+}
+
+//index main content 
+
+header{
+  background: #414141;
+  .header_texts {
+    display: inline;
+    h1, span {
+      display: inline;
+    }
+    h1 {
+      color: #fff;
+      span {
+        font-size: 20px;
+      }
+    }
+    p {
+      display:inline;
+      color: #b2b2b2;
+    }
+  }
+}
